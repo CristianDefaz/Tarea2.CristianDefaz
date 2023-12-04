@@ -57,7 +57,6 @@ class pc_Model {
   insertar() {
     var dato = new FormData();
     dato= this.data;
-    console.log(dato);
     $.ajax({
       url: "../../Controllers/computadoras.controller.php?op=insertar",
       type: "POST",
