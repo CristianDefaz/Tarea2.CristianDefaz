@@ -59,6 +59,10 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
+
+                    <input type="hidden" name="UsuarioId" id="UsuarioId">
+
+
                     <div class="form-group">
                         <label for="Cédula">Cédula</label>
                         <input type="text" onfocusout="algoritmo_cedula();cedula_repetida();" required class="form-control" id="Cedula" name="Cedula" placeholder="Cédula">
@@ -120,5 +124,5 @@
 
 <?php require_once('../html/script2.php') ?>
 
-<script src="./usuarios.controller.js"></script>
-<script src="./usuarios.model.js"></script>
+<script src="usuarios.controller.js"></script>
+<script src="usuarios.model.js"></script>

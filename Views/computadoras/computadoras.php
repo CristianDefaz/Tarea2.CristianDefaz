@@ -63,7 +63,9 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    
+
+                <input type="hidden" name="id_compu" id="id_compu">
+
                     <div class="form-group">
                         <label for="marca">Marca</label>
                         <input type="text" required class="form-control" id="marca" name="marca" placeholder="marca">
